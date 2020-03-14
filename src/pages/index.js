@@ -1,5 +1,6 @@
 import Overview from './Overview';
-import Tickets from './Tickets';
+import Startups from './Startups';
 import Credits from './Credits';
+import Investors from './Investors';
 
-export { Overview, Tickets, Credits };
+export { Overview, Startups, Credits, Investors };
