@@ -31,13 +31,16 @@ export default function Sidebar() {
             <Link to="/overview"><img src={Overview} alt="Overview" />Home</Link>
           </li>
           <li>
-            <Link to="/tickets"><img src={Tickets} alt="Tickets" />Startups</Link>
+            <Link to="/startups"><img src={Tickets} alt="Startups" />Startups</Link>
           </li>
           <li>
-            <a href="!"><img src={Agents} alt="Agents" />Investidores</a>
+            <a href="/investors"><img src={Agents} alt="Investors" />Investidores</a>
           </li>
           <li>
             <a href="/credits"><img src={Articles} alt="Articles" />Créditos</a>
+          </li>
+          <li>
+            <a href="!"><img src={Ideas} alt="Chat" />Chat</a>
           </li>
           <li>
             <a href="!"><img src={Contacts} alt="Contacts" />Contacts</a>
