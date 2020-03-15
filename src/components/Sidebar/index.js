@@ -47,17 +47,17 @@ export default function Sidebar() {
             <a href="/diagnostic"><img src={Subscription} alt="Diagnostic" />Diagnostic</a>
           </li>
           <li>
-            <a href="!"><img src={Contacts} alt="Contacts" />Contacts</a>
+            <a href="/contacts"><img src={Contacts} alt="Contacts" />Contacts</a>
           </li>
         </Nav>
 
         <Nav>
           <hr />
           <li>
-            <a href="!"><img src={Settings} alt="Settings" />Profile</a>
+            <a href="/profile"><img src={Settings} alt="Settings" />Profile</a>
           </li>
           <li>
-            <a href="!"><img src={Settings} alt="Settings" />Settings</a>
+            <a href="/setting"><img src={Settings} alt="Settings" />Settings</a>
           </li>
         </Nav>
       </div>
