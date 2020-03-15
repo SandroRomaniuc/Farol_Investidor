@@ -10,6 +10,7 @@ import Contacts from '../../assets/images/contacts.svg';
 import Agents from '../../assets/images/agents.svg';
 import Settings from '../../assets/images/settings.svg';
 import Articles from '../../assets/images/articles.svg';
+import Subscription from '../../assets/images/subscription.svg';
 
 //Styles
 import { Container, Nav, Title } from "./styles";
@@ -40,7 +41,10 @@ export default function Sidebar() {
             <a href="/credits"><img src={Articles} alt="Articles" />Créditos</a>
           </li>
           <li>
-            <a href="!"><img src={Ideas} alt="Chat" />Chat</a>
+            <a href="/rank"><img src={Ideas} alt="Rank" />Rank</a>
+          </li>
+          <li>
+            <a href="/diagnostic"><img src={Subscription} alt="Diagnostic" />Diagnostic</a>
           </li>
           <li>
             <a href="!"><img src={Contacts} alt="Contacts" />Contacts</a>
