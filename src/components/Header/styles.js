@@ -4,7 +4,9 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 10px 0px 0;
+  margin: 0px 0px 0 -10px;
+  background: #02064f;
+  padding: 10px;
 `;
 
 export const Title = styled.h2`
@@ -16,7 +18,7 @@ export const Title = styled.h2`
   letter-spacing: 0.3px;
 
   /* grayscale / black */
-  color: #252733;
+  color: #fff;
 `;
 
 export const ContentSearchAndNotification = styled.div`
@@ -33,10 +35,10 @@ float: right;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #3751FF;
+  background-color: #fff;
   padding: 0px 3px;
   font-size: 12px;
-  color: #fff;
+  color: #222;
 }
 
 `;
@@ -53,7 +55,7 @@ export const SearchAndNotification = styled.div`
     margin-left: 16px;
 
     padding-right: 20px;
-    border-right: 1px solid #eee;
+    border-right: 1px solid #fff;
 
   }
 
@@ -76,7 +78,7 @@ export const User = styled.div`
   text-align: right;
   letter-spacing: 0.2px;
 
-  color: #252733;
+  color: #fff;
 
   img {
     width: 44px;
