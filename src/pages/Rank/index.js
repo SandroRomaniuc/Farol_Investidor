@@ -9,12 +9,12 @@ import {
   ContainerTable,
 } from './styles';
 
-export default function Rank() {
+export default function Startups() {
   return (
     <Container>
       <Content>
         <ContentHeader>
-          <h3>Créditos</h3>
+          <h3>Rank</h3>
           <div>
             <span>
               <FaSortAmountUp
@@ -38,24 +38,33 @@ export default function Rank() {
         <ContainerTable>
           <table>
             <thead>
-              <th align="left">Origin link</th>
-              <th align="left">name</th>
+              <th align="left" colSpan="2">Name</th>
+              <th align="left">Category</th>
               <th align="left">Date</th>
+              <th align="left">Status Rank</th>
               <th align="center">&nbsp;</th>
             </thead>
             <tbody>
               <tr>
-                <td>
-                  <a href="http://clipart-library.com/clipart/8i6oBAbXT.htm" target="_blank">
-                    clipart-library.com/clipart/8i6oBAbXT.htm
-                  </a>
+                <td width="50px">
+                  <picture>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSypW5lZOITsj6UWKH4yT_jpNpFQQLOZ31DI4KkeywszD5Hz41N" alt="Stone Pagamentos" />
+                  </picture>
                 </td>
                 <td>
-                  <label>Lighthouse</label>
+                  <label>Stone Pagamentos</label>
+                  <span>Updated 1 hour ago</span>
                 </td>
                 <td>
-                  <label>14.03.2020</label>
-                  <span>13:14 pm</span>
+                  <label>Financeiro</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="left">
+                  <Link to="/">Iniciante</Link>
                 </td>
                 <td align="center">
                   <FaEllipsisV
@@ -64,6 +73,118 @@ export default function Rank() {
                   />
                 </td>
               </tr>
+              <tr>
+                <td width="50px">
+                  <picture>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSakGAYmX0onKlSnQ-6OoMohtdDeeuDyiTodOuAQnGz-dxLve0v" alt="Gama Academy" />
+                  </picture>
+                </td>
+                <td>
+                  <label>Gama Academy</label>
+                  <span>Updated 6 hour ago</span>
+                </td>
+                <td>
+                  <label>Saúde e Beleza</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="left">
+                  <Link to="/">Bronze</Link>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td width="50px">
+                  <picture>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-5GlYfyaC1kog3rNF1xqTIp9Zfu7OTZHwhqSmkAfvY-YnyYAy" alt="CNA Brasil" />
+                  </picture>
+                </td>
+                <td>
+                  <label>CNA Brasil</label>
+                  <span>Updated 11 hour ago</span>
+                </td>
+                <td>
+                  <label>Monitoramento</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="left">
+                  <Link to="/">Diamante</Link>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td width="50px">
+                  <picture>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROPwBcPR831NuBmVse1MUSx6bKINs7w-MFh8wqEUAtukiHLvGJ" alt="logo Arco" />
+                  </picture>
+                </td>
+                <td>
+                  <label>Arco</label>
+                  <span>Updated 15 hour ago</span>
+                </td>
+                <td>
+                  <label>Educação</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="left">
+                  <Link to="/">Prata</Link>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td width="50px">
+                  <picture>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRrYsiYpFBdpHn_o1Rd8Ez3sIFeSjzCiZgsXenK3ceRrXhezFe4" alt="logo Shippify" />
+                  </picture>
+                </td>
+                <td>
+                  <label>Shippfy</label>
+                  <span>Updated 1 day ago</span>
+                </td>
+                <td>
+                  <label>Transporte e IFood</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="left">
+                  <Link to="/">Ouro</Link>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr> 
             </tbody>
           </table>
         </ContainerTable>
