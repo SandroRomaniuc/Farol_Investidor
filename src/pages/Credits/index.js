@@ -64,6 +64,26 @@ export default function Credits() {
                   />
                 </td>
               </tr>
+              <tr>
+                <td>
+                  <a href="https://www.gratispng.com/" target="_blank">
+                    Lighthouse png
+                  </a>
+                </td>
+                <td>
+                  <label>Lighthouse</label> 
+                </td>
+                <td>
+                  <label>14.03.2020</label>
+                  <span>13:14 pm</span>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr>
             </tbody>
           </table>
         </ContainerTable>
