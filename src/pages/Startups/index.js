@@ -14,7 +14,7 @@ export default function Startups() {
     <Container>
       <Content>
         <ContentHeader>
-          <h3>Settings</h3>
+          <h3>All Startups</h3>
           <div>
             <span>
               <FaSortAmountUp

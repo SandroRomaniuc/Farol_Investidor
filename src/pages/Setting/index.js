@@ -14,7 +14,7 @@ export default function Setting() {
     <Container>
       <Content>
         <ContentHeader>
-          <h3>Créditos</h3>
+          <h3>Settings</h3>
           <div>
             <span>
               <FaSortAmountUp
