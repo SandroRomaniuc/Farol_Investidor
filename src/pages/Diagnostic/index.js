@@ -14,7 +14,7 @@ export default function Diagnostic() {
     <Container>
       <Content>
         <ContentHeader>
-          <h3>Créditos</h3>
+          <h3>Diagnostic</h3>
           <div>
             <span>
               <FaSortAmountUp
