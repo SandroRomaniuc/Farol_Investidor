@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FaFilter, FaSortAmountUp, FaEllipsisV } from 'react-icons/fa';
 
@@ -9,7 +9,8 @@ import {
   ContainerTable,
 } from './styles';
 
-export default function Investors() {
+class Investors extends Component {
+  render () {
   return (
     <Container>
       <Content>
@@ -175,4 +176,8 @@ export default function Investors() {
       </Content>
     </Container>
   );
+  }
 }
+
+
+export default Investors;
