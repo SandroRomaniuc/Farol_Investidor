@@ -36,7 +36,6 @@ export const ContentHeader = styled.header`
 export const ContainerTable = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100%;
   width: 100%;
   padding: 20px;
 
