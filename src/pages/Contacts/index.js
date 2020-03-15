@@ -14,7 +14,7 @@ export default function Contacts() {
     <Container>
       <Content>
         <ContentHeader>
-          <h3>Créditos</h3>
+          <h3>Contacts</h3>
           <div>
             <span>
               <FaSortAmountUp
