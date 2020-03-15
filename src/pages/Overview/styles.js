@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Muli:400,600&display=swap');
   display: block;
-  margin: 40px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 `;
 
 export const Content = styled.main`

@@ -4,7 +4,7 @@ export const Container = styled.aside`
   height: 100%;
   width: 200px;
 
-  background: #003e7e;
+  background: #02064f;
   color: #fff;
 
   display: flex;
@@ -43,7 +43,7 @@ export const Nav = styled.ul`
     align-items: center;
 
     span {
-      font-size: 13px;
+      font-size: 16px;
       text-transform: uppercase;
       line-height: 22px;
       letter-spacing: 1.11px;
@@ -53,7 +53,7 @@ export const Nav = styled.ul`
     a {
       color: inherit; /*Mesma color do container*/
       text-decoration: none;
-      font-size: 13px;
+      font-size: 16px;
       line-height: 32px;
       cursor: pointer;
       color: #A4A6B3;

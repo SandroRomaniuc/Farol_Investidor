@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  margin: 40px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 `;
 
 export const Content = styled.div`
@@ -36,7 +36,6 @@ export const ContentHeader = styled.header`
 export const ContainerTable = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100%;
   width: 100%;
   padding: 20px;
 
