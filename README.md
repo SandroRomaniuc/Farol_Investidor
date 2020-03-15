@@ -47,5 +47,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 ## Demonstration
 <h1 align="center">
-  <img src="https://i.ibb.co/vB44ZMH/farol-investidor.png" alt="farol-investidor" width="800px" height="600px" border="0" />
+  <img src="https://i.ibb.co/fSdd4T2/farol-investidor.png" alt="farol-investidor" border="0">
 </h1>
