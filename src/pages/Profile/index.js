@@ -14,7 +14,7 @@ export default function Profile() {
     <Container>
       <Content>
         <ContentHeader>
-          <h3>Créditos</h3>
+          <h3>Profile</h3>
           <div>
             <span>
               <FaSortAmountUp
