@@ -106,7 +106,22 @@ class Overview extends PureComponent {
             </Cards>
           </ContainerCards>
 
-          
+          <ContainerCards>
+            <Cards size="big">
+              <HeaderTitle title="Startups" subtitle="em todos estados" link="overview" textLink="Details..." />
+              <UnresolvedTicketsItems title="Technologia" number="5.784" />
+              <UnresolvedTicketsItems title="Financeiro" number="4.560" />
+              <UnresolvedTicketsItems title="Saúde e Beleza" number="2.984" />
+              <UnresolvedTicketsItems title="outros" number="1.559" />
+            </Cards>
+            <Cards size="big">
+              <HeaderTitle title="Investidores" subtitle="O que estão procurando" link="overview" textLink="Details..." />
+              <UnresolvedTicketsItems title="Foods" number="4238" />
+              <UnresolvedTicketsItems title="Saúde" number="1005" />
+              <UnresolvedTicketsItems title="Entretenimentos" number="914" />
+              <UnresolvedTicketsItems title="outros" number="281" />
+            </Cards>
+          </ContainerCards>
 
           <ContainerChart>
             <div id="chart">
@@ -131,23 +146,6 @@ class Overview extends PureComponent {
               <CardsChart title="AI Result Moment Day" info="94%" />
             </article>
           </ContainerChart>
-
-          <ContainerCards>
-            <Cards size="big">
-              <HeaderTitle title="Startups" subtitle="em todos estados" link="overview" textLink="Details..." />
-              <UnresolvedTicketsItems title="Technologia" number="5.784" />
-              <UnresolvedTicketsItems title="Financeiro" number="4.560" />
-              <UnresolvedTicketsItems title="Saúde e Beleza" number="2.984" />
-              <UnresolvedTicketsItems title="outros" number="1.559" />
-            </Cards>
-            <Cards size="big">
-              <HeaderTitle title="Investidores" subtitle="O que estão procurando" link="overview" textLink="Details..." />
-              <UnresolvedTicketsItems title="Foods" number="4238" />
-              <UnresolvedTicketsItems title="Saúde" number="1005" />
-              <UnresolvedTicketsItems title="Entretenimentos" number="914" />
-              <UnresolvedTicketsItems title="outros" number="281" />
-            </Cards>
-          </ContainerCards>
 
           <ContainerCardsFooter>
             <Cards size="big">

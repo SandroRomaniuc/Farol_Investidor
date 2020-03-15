@@ -12,8 +12,8 @@
 
 - Sandro Romaniuc
 - Humberto Jr - https://github.com/humbertoromanojr
-- Reinaldo - https://github.com/reinaldonetof
-- Moises 
+- Reinaldo Neto - https://github.com/reinaldonetof
+- Moises Lima - https://github.com/moisesrlima
 
 
 ### FRONT-END

@@ -123,6 +123,31 @@ class Investors extends Component {
               <tr>
                 <td width="50px">
                   <picture>
+                    <img src="https://avatars2.githubusercontent.com/u/4835131?s=460&u=85ba5c6477e6788513830b762045cde33a5b482a&v=4" alt="Moises Lima" />
+                  </picture>
+                </td>
+                <td>
+                  <label>Moisés Lima</label>
+                  <span>desde 03.05.2019</span>
+                </td>
+                <td>
+                  <label>Monitoramento, EFood, Business</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td width="50px">
+                  <picture>
                     <img src="https://avatars1.githubusercontent.com/u/49542219?s=460&u=8a7fe9b47ca6b09374232e8cace190db15ae4a4c&v=4" alt="Sandro Romaniuc" />
                   </picture>
                 </td>
@@ -198,6 +223,31 @@ class Investors extends Component {
               <tr>
                 <td width="50px">
                   <picture>
+                    <img src="https://avatars2.githubusercontent.com/u/4835131?s=460&u=85ba5c6477e6788513830b762045cde33a5b482a&v=4" alt="Moises Lima" />
+                  </picture>
+                </td>
+                <td>
+                  <label>Moisés Lima</label>
+                  <span>desde 03.05.2019</span>
+                </td>
+                <td>
+                  <label>Monitoramento, EFood, Business</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td width="50px">
+                  <picture>
                     <img src="https://avatars1.githubusercontent.com/u/49542219?s=460&u=8a7fe9b47ca6b09374232e8cace190db15ae4a4c&v=4" alt="Sandro Romaniuc" />
                   </picture>
                 </td>
@@ -257,6 +307,31 @@ class Investors extends Component {
                 </td>
                 <td>
                   <label>Viagens e Turismo, EFood, Música</label>
+                  <span>on 24.05.2020</span>
+                </td>
+                <td>
+                  <label>March 11, 2020</label>
+                  <span>20:14 pm</span>
+                </td>
+                <td align="center">
+                  <FaEllipsisV
+                    size={20}
+                    color="#ddd"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td width="50px">
+                  <picture>
+                    <img src="https://avatars2.githubusercontent.com/u/4835131?s=460&u=85ba5c6477e6788513830b762045cde33a5b482a&v=4" alt="Moises Lima" />
+                  </picture>
+                </td>
+                <td>
+                  <label>Moisés Lima</label>
+                  <span>desde 03.05.2019</span>
+                </td>
+                <td>
+                  <label>Monitoramento, EFood, Business</label>
                   <span>on 24.05.2020</span>
                 </td>
                 <td>
